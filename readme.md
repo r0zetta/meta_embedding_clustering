@@ -1,5 +1,11 @@
 # Identification And Categorization Of Toxic Twitter Posts Via Clustering
 
+## Foreword
+
+This research was conducted between 1st November 2019 and 22nd January 2020 by Alexandros Kornilakis (University of Crete, FORTH-ICS department) and Andrew Patel (F-Secure Corporation) as part of EU Horizon 2020 projects PROTASIS and SHERPA. SHERPA is an EU-funded project which analyses how AI and big data analytics impact ethics and human rights. PROTASIS is a project that aims to expand the reach of systems security to the international community via a joint research program.
+
+## Introduction
+
 Anyone who's read comments sections on news sites, looked at replies to social media posts authored by high profile accounts, or read comments on YouTube will appreciate that there's a great deal of toxicity on the internet. Well-known accounts, especially those owned by politicians, tend to be targeted by a great deal of negativity. Social media posts authored by politicians, journalists, and news organizations receive large numbers of angry or downright toxic replies from people who don't support their views. Some of these replies originate from fake accounts that have been created for the express purpose of trolling - the process of posting controversial comments designed to provoke emotional reactions and start fights. Trolling is a highly efficient way to spread rumors and disinformation, alter public opinion, and disrupt otherwise meaningful conversation, and, as such is a tool often used by organized groups of political activists, commercial troll farms, and nation state disinformation campaigns.
 
 On Twitter, troll accounts sometimes use a technique called reply-spamming to fish for engagement. This technique involves replying to a large number of high-profile accounts with the same or similar messages. This achieves two goals. The first is organic visibility - many people read replies to posts from politicians, and thus may read the post from the troll account. The second is social engineering – people get angry and reply to the troll’s posts, and occasionally the owner of the high-profile account may be tricked into engaging with the post themselves. Although the high-profile accounts is rarely engaged by such tactics, there are examples of it happening. For instance, a parody account named Shaniqua O'Toole, claiming to be a Guardian journalist, managed to gain engagement from a few high-profile verified Twitter accounts by posting replies to their tweets that contained fake screenshots that looked like headlines on The Guardian's website.
@@ -58,13 +64,17 @@ The ability to accurately cluster social media posts by content and topic can gr
 
   - detection of bots or spam publishers
 
-To this end, we have attempted to build a system that is capable of clustering the type of written content typically encountered on social networks (or more specifically, on Twitter). Our experiments focus on tweets posted in reply to content authored by prominent US politicians and presidential candidates. We started by collecting two datasets:
+To this end, we have attempted to build a system that is capable of clustering the type of written content typically encountered on social networks (or more specifically, on Twitter). Our experiments focus on tweets posted in reply to content authored by prominent US politicians and presidential candidates. 
 
-## Set 1: US Democrats
+## Experiments
+
+We started by collecting two datasets:
+
+### Set 1: US Democrats
 
 The first set captured direct replies to tweets published by a number of highly engaged democrat-affiliated Twitter accounts - @JoeBiden, @SenSanders, @BernieSanders, @SenWarren, @ewarren, @PeteButtigieg, @MikeBloomberg, @amyklobuchar, @AndrewYang and @AOC - between Sun Dec 15 2019 and Mon Jan 13 2020. A total of 978,721 tweets were collected during this period. After preprocessing, a total of 719,617 tweets remained.
 
-## Set 2: Donald Trump
+### Set 2: Donald Trump
 
 The second set captured direct replies to tweets published by @realDonaldTrump between Sun Dec 15 2019 and Wed Jan 08 2020. A total of 4,940,317 tweets were collected during this period. Due to the discrepancy between the sizes of the two collected datasets, we opted to utilize a portion of this set containing 1,022,824 tweets. After preprocessing, a total of 747,232 tweets remained.
 
@@ -296,7 +306,7 @@ Three different sentence vectors were then calculated from each saved tweet:
 
 Sentence meta embeddings were then calculated by summing the three sentence vectors calculated for each tweet. The resulting sentence meta embeddings were then saved in preparation for the next step.
 
-2\. Sample clustering
+### 2\. Sample clustering
 
 Our clustering methodology involves the following steps:
 
