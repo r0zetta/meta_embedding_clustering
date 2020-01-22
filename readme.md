@@ -24,9 +24,7 @@ Reply spam was also used to successfully propagate disinformation during the run
 
 ![](readme//media/image4.jpeg)
 
-*Above: some of the original reply spam tweets regarding the Leeds Hospital incident.*
-
-Note how they are all replies to politicians and journalists.
+*Above: some of the original reply spam tweets regarding the Leeds Hospital incident. Note how they are all replies to politicians and journalists.*
 
 ![](readme//media/image5.png)
 
