@@ -70,6 +70,8 @@ The second set captured direct replies to tweets published by @realDonaldTrump b
 
 Our clustering methodology involved preprocessing of captured data, converting tweets into sentence vectors (using different techniques), combining those vectors into meta embeddings, and then creating node-edge graphs using similarities between calculated meta embeddings. Clusters were then derived by performing community detection on the resulting graphs. A detailed description of our methodology can be found in appendix 1 of this article.
 
+### Experiment 1: US Democrats
+
 Our first experiment involved clustering of a subset of data in set 1 (US democrats). We clustered a batch of 34,003 tweets, resulting in 209 clusters. We created an interactive demo using results of this clustering experiment that can be found here: https://twitter-clustering.web.app/ Note that this interactive demo will not display correctly on mobile browsers, so we encourage you to visit it from a desktop computer. Use the scroll wheel to zoom in and out of the visualization space, left-click and drag to move the nodes around, and click on nodes or communities themselves to see details. Details include names of accounts that were replied to the most in tweets assigned to that cluster, subject-verb-object triplets and overall sentiment extracted from those tweets, and the two most relevant tweets, loaded on the right of the screen, as examples. Different communities related to different topics (e.g. Community 2 contains clusters relevant to recent events in Iran).
 
 We ran sentiment analysis on each cluster by taking the average sentiment calculated across all tweets contained in the cluster. Sentiment analysis was performed with TextBlob’s lexical sentiment analyzer. We then summarized negative and positive groups of clusters by counting words, ngrams, and which account was replied to. We also extracted subject-verb-object triplets from clusters using the textacy python module.
@@ -81,10 +83,10 @@ Note how, in the above, sentiment analysis has incorrectly categorized “you wi
 
 ![](readme//media/image8.png)
 
-As you can see in the above, negative clusters outnumbered positive clusters by a factor of three. However, this simple analysis isn’t all that accurate due to problems with the sentiment analysis methodology.
+As you can see in the above, negative clusters outnumbered positive clusters by a factor of three. However, this simple analysis isn’t all that accurate due to deficiencies in the sentiment analysis library used.
 
 
-The following pie chart contains summaries of some of the larger clusters identified. Most of the larger clusters contained negative replies, including common themes such as:
+The following chart contains summaries of some of the larger clusters identified. Most of the larger clusters contained negative replies, including common themes such as:
 
   - you are an idiot/moron/liar/traitor (or similar)
 
@@ -138,6 +140,8 @@ Several clusters contained replies directed at just one account. They contained 
 *The cluster shown above contains positive comments to democratic presidential candidates that were posted after a debate*
 
 ---
+
+### Experiment 2: realDonaldTrump
 
 Our second experiment involved clustering of a subset of data in set 2 (@realDonaldTrump). We processed a batch of 30,044 tweets, resulting in 209 clusters. Using the same methodology as in our first experiment, we separated the clusters into positive and negative, and summarized them.
 
