@@ -116,7 +116,7 @@ Several clusters contained replies directed at just one account. They contained 
 
 Here are a few noteworthy clusters that we found.
 
-![](readme//media/image11.png)![](readme//media/image12.png)
+![](readme//media/image11.png)
 
 Two discovered clusters – one containing toxic replies, and another containing praise
 
