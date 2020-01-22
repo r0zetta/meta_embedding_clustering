@@ -345,6 +345,10 @@ It is possible to perform reasonably fast (less than 10 seconds) in-memory cosin
 
 10. Once all communities discovered in step 5 have been processed, add new samples from the pool to be processed to *new\_batch* until it reaches size *batch\_size*, assign it to *current\_batch*, and return to step 1. Once all samples from the pool have been exhausted, or the desired number of samples have been clustered, exit the loop.
 
+Here is a diagram of the above process:
+
+![](readme//media/image39.png)
+
 ### Failsafe
 
 Occasionally, the loop runs without finding any communities that fulfill the *minimim\_cluster\_size* requirement. This, of course, causes the loop to go infinite. We added logic to detect this (check that the length of *new\_batch* is not the same as *batch\_size* before proceeding to the next pass). Our fix was to forcefully remove the first 10% of the array and append that many new samples to the end before proceeding to the next pass.
