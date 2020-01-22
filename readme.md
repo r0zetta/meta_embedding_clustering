@@ -239,47 +239,47 @@ We tested our topic modeling methodology further by running the same toolchain o
 ![](readme//media/image28.png)
 
 
-*Below we can see some copy-paste disinformation, all shared by the same user. Note that this analysis was run over roughly 30,000 randomly selected tweets from a dataset with millions of entries. As such, I might expect more from the same user.*
+*Below we can see some copy-paste disinformation, all shared by the same user. Note that this analysis was run over roughly 30,000 randomly selected tweets from a dataset with millions of entries. As such, I imagine we'd likely find more of the same from this user if we were to process a larger number of tweets.*
 
 ![](readme//media/image29.png)
 
 
-*Below we see some tweets advertising porn on top of the \#ge2019 hashtag. Spam advertisers always piggyback their tweets on trending hashtags, and the ones we captured trended often during the run-up to the 2019 UK general elections.*
+*Below we see some tweets advertising porn, on top of the \#ge2019 hashtag. Spam advertisers often piggyback their tweets on trending hashtags, and the ones we captured trended often during the run-up to the 2019 UK general elections.*
 
 ![](readme//media/image30.png)
 
 
-*A cluster that identified a certain style of writing happened to identify tweets largely from one account. Rather useful.*
+*A cluster that identified a certain style of writing also identified tweets coming mostly from one account. Rather useful.*
 
 ![](readme//media/image31.png)
 
 
-*The cluster below picked up on similar phraseology. Not sure what that was about.*
+*The cluster below picked up on similar phraseology. Not sure what that conversation was about.*
 
 ![](readme//media/image32.png)
 
 
-*Finally, several clusters (shown below) contained a great deal of tweets including the phrase “antisemitism”. Many of the accounts in those clusters could be classified as trolls and/or fake disinformation accounts.*
+*Finally, several clusters (shown below) contained a great deal of tweets including the word “antisemitism”. Many of the accounts in these clusters could be classified as trolls and/or fake disinformation accounts.*
 
 ![](readme//media/image33.png)
 
-*Note that we found similar clusters in data collected by following Tory activist accounts / sockpuppets during the same time period (shown below):*
+*Note that we found similar clusters in data collected by following pro-tory activist accounts and sockpuppets during the same time period (shown below):*
 
 ![](readme//media/image34.png)
 
-It’s worth noting that a portion of the accounts identified in our clustered data have been suspended since the data was originally collected. This is a good indication that some of the accounts replying to politicians, and participating in harassment are either fake, or are performing activities that break Twitter’s terms of service. Any methodology that allows such accounts to be identified quickly and accurately is of importance.
+It’s worth noting that a portion of the accounts identified in our clustered data have been suspended since the data was originally collected. This is a good indication that some of the users who post frequent replies to politicians, and participate in harassment are either fake, or are performing activities that break Twitter’s terms of service. Any methodology that allows such accounts to be identified quickly and accurately is of value.
 
 ---
 
 ## Conclusions and future directions
 
-The methodology developed for our experiments yielded a mechanism for grouping tweets with similar content into reasonably accurate clusters. It did a very efficient job at identifying similar tweets, such as those posted by coordinated disinformation groups, or from reply spammers, and from services that post content on behalf of a user’s account (such as paper.li or share buttons on web sites). However, it still suffers from a tradeoff between accuracy and the creation of redundant clusters. Further work is needed to refine the parameters and logic of this methodology such that it is able to assign groups of relatively rare tweets into small clusters, while at the same time creating large clusters of similar content, where appropriate.
+The methodology developed for our experiments yielded a mechanism for grouping tweets with similar content into reasonably accurate clusters. It did a very efficient job at identifying similar tweets, such as those posted by coordinated disinformation groups, from reply-spammers, and from services that post content on behalf of a user’s account (such as paper.li or share buttons on web sites). However, it still suffers from a tradeoff between accuracy and the creation of redundant clusters. Further work is needed to refine the parameters and logic of this methodology such that it is able to assign groups of relatively rare tweets into small clusters, while at the same time creating large clusters of similar content, where appropriate.
 
-In order to fully automate the detection of toxic content and online harassment, additional mechanisms must be researched and added to our toolchain. These include an automated method for summarizing the contents of a cluster, sentiment or stance analysis of the contents of a cluster, and a way of automatically assigning a verdict, label, or category to each cluster.
+In order to fully automate the detection of toxic content and online harassment, additional mechanisms must be researched and added to our toolchain. These include an automated method for summarizing the contents of a cluster, accurate sentiment or stance analysis of the contents of a cluster, and a way of automatically assigning a verdict, label, or category to each cluster.
 
 Further research into whether the identified clusters may be used to classify new content is another area worth exploring (initial experiments into this line of research are documented in appendix 2 of this article).
 
-If these future goals can be completed successfully, a whole range of potential applications open up, such as, automated filtering or removal of toxic content, an automated method to assign scores to accounts based on the frequency at which they post toxic content or harass users, and the ability to track the propagation of toxic or trolling content on a social network (including, perhaps, behind-the-scenes identification of how such activity is being coordinated).
+If these future goals can be completed successfully, a whole range of potential applications open up, such as, automated filtering or removal of toxic content, an automated method to assign quality scores to accounts based on how often they post toxic content or harass users, and the ability to track the propagation of toxic or trolling content on social networks (including, perhaps, behind-the-scenes identification of how such activity is coordinated).
 
 ## Appendix 1: Detailed methodology
 
