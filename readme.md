@@ -78,13 +78,10 @@ We ran sentiment analysis on each cluster by taking the average sentiment calcul
 
 Note how sentiment analysis has incorrectly categorized “you will never be president” as positive.
 
----
 
 ![](readme//media/image8.png)
 
 As you can see, negative clusters outnumbered positive clusters by a factor of three. However, this simple analysis isn’t all that accurate due to problems with the sentiment analysis methodology.
-
----
 
 The following pie chart contains summaries of some of the larger clusters identified. Most of the larger clusters contained negative replies, including common themes such as:
 
@@ -155,7 +152,6 @@ A summarization of negative clusters didn’t find any obvious false-positives. 
 
 Again, negative clusters are roughly three times more prevalent than positive ones.
 
----
 
 Here are some details from the larger identified clusters. They include the following negative themes:
 
@@ -180,6 +176,8 @@ Here are some of the positive themes identified in these larger clusters:
   - You are the best president
 
 ![](readme//media/image18.png)
+
+---
 
 Some notable clusters:
 
