@@ -128,7 +128,7 @@ Several clusters contained replies directed at just one account. They contained 
 
 ---
 
-Here are a few noteworthy clusters that we found.
+### Noteworthy clusters
 
 ![](readme//media/image11.png)
 
@@ -189,7 +189,7 @@ Here are some of the positive themes identified in these larger clusters:
 
 ---
 
-Some notable clusters:
+### Noteworthy clusters
 
 ![](readme//media/image19.png)
 
@@ -210,6 +210,7 @@ Some notable clusters:
 ![](readme//media/image23.png)
 
 ---
+### Content regarding the recent Iranian situation
 
 As mentioned in our methodology section (later in this article), the technique we’re using does sometimes identify multiple clusters containing similar subject matter. While looking through the clusters identified from replies to @realDonaldTrump, we found four clusters that all contained high percentages of tweets about a recent situation in Iran. Upon inspection we realized that those clusters contained different takes on the same issue.
 
@@ -234,8 +235,9 @@ And finally, this cluster contains negative comments, some of which that are rat
 ![](readme//media/image27.png)
 
 ---
+### Testing our methodology on different data
 
-We tested our topic modeling methodology a little further by running the same toolchain on a set of tweets collected during the run-up to the UK elections. These were tweets captured on hashtags relevant to those elections (\#GE2019, \#generalelection2019, etc.). Our methodology turns out to be quite well-suited for finding spam. Here are a few examples:
+We tested our topic modeling methodology further by running the same toolchain on a set of tweets collected during the run-up to the UK elections. These were tweets captured on hashtags relevant to those elections (\#GE2019, \#generalelection2019, etc.). Our methodology turns out to be quite well-suited for finding spam. Here are a few examples:
 
 The following output contains tweets posted by an app called “paper.li”, which is a legitimate online service that folks can use to craft their own custom newspaper. It turns out there were a great deal of paper.li links shared on top of the \#ge2019 hashtag. Unfortunately, this was one of four clusters identified that contained similar-looking paper.li tweets (which could be found more easily by filtering collected Twitter data by source field).
 
