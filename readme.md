@@ -252,7 +252,7 @@ If these future goals can be completed successfully, a whole range of potential 
 
 This section contains a detail explanation of the methodology we employed to cluster tweets based on their textual content. Since this section is fairly dry and technical, we opted to leave it until the end of this article. Feel free to skip it unless you’re interested in replicating it for your own means, are involved in similar research, or are both curious and patient
 
-All the code used to implement this can be found at XXX URL XXX.
+All the code used to implement this can be found at https://github.com/r0zetta/meta_embedding_clustering under the code/ subdirectory.
 
 ### 1\. Data collection, preprocessing, and vectorization
 
