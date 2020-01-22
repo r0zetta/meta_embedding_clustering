@@ -1,4 +1,4 @@
-#Clustering of tweets based on textual content using meta embeddings and community detection
+# Clustering of tweets based on textual content using meta embeddings and community detection
 
 This directory contains the code detailed in our blog post entitled "Identification And Categorization Of Toxic Twitter Posts Via Clustering" that can be found at: https://github.com/r0zetta/meta_embedding_clustering
 
