@@ -80,14 +80,23 @@ A image below is a static graph visualization of the discovered clusters:
 
 We ran sentiment analysis on each cluster by taking the average sentiment calculated across all tweets contained in the cluster. Sentiment analysis was performed with TextBlob’s lexical sentiment analyzer. We then summarized negative and positive groups of clusters by counting words, ngrams, and which account was replied to. We also extracted subject-verb-object triplets from clusters using the textacy python module.
 
-![](readme//media/image7.png)
+![](readme//media/image43.png)
 
 Note how, in the above, sentiment analysis has incorrectly categorized “you will never be president” as positive.
 
+![](readme//media/image44.png)
 
-![](readme//media/image8.png)
+As you can see in the above, negative clusters outnumbered positive clusters by a factor of two.
 
-As you can see in the above, negative clusters outnumbered positive clusters by a factor of three. However, this simple analysis isn’t all that accurate due to deficiencies in the sentiment analysis library used.
+![](readme//media/image45.png)
+
+Above are clusters designated toxic by virtue of their average sentiment score.
+
+![](readme//media/image46.png)
+
+Above is a breakdown of replies by verdict for each candidate. @AndrewYang received by far the most positive replies, whilst @AOC and @SenWarren received the most replies deemed toxic.
+
+This simple analysis isn’t, unfortunately, all that accurate, due to deficiencies in the sentiment analysis library used.
 
 
 The following chart contains summaries of some of the larger clusters identified. Most of the larger clusters contained negative replies, including common themes such as:
@@ -153,15 +162,15 @@ A image below is a static graph visualization of the discovered clusters:
 
 ![](readme//media/image42.png)
 
-Using the same methodology as in our first experiment, we separated the clusters into positive and negative, and summarized them. Positive clusters included both statements of thanks and wishes of Merry Christmas and a Happy New Year. However, “you are a puppet” was incorrectly considered positive by sentiment analysis.
+Using the same methodology as in our first experiment, we separated the clusters into positive, negative, and toxic and summarized them. Positive clusters included both statements of thanks and wishes of Merry Christmas and a Happy New Year. However, “you are a puppet” was incorrectly considered positive by sentiment analysis. A summarization of negative clusters didn’t find any obvious false-positives. It includes themes such as recent impeachment hearings, and comments on the amount of time the president has spent playing golf. Clusters deemed toxic contained a lot of profanity.
 
-![](readme//media/image16.png)
+![](readme//media/image47.png)
 
+Final values for this set were as follows:
 
-A summarization of negative clusters didn’t find any obvious false-positives. It includes themes such as recent impeachment hearings, and comments on the amount of time the president has spent playing golf.
+Positive: 7260 (24.16%) Negative: 16364 (54.47%) Toxic: 6420 (21.37%)
 
-
-![](readme//media/image17.png)
+Note how @realDonaldTrump received a great deal more toxic replies than any of the accounts studied in the previous dataset.
 
 Again, negative clusters are roughly three times more prevalent than positive ones.
 
