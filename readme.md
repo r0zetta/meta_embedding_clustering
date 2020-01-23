@@ -168,14 +168,13 @@ Using the same methodology as in our first experiment, we separated the clusters
 
 Final values for this set were as follows:
 
-Positive: 7260 (24.16%) Negative: 16364 (54.47%) Toxic: 6420 (21.37%)
+Positive tweets: 7260 (24.16%) Negative tweets: 16364 (54.47%) Toxic tweets: 6420 (21.37%)
 
 Note how @realDonaldTrump received a great deal more toxic replies than any of the accounts studied in the previous dataset.
 
-Again, negative clusters are roughly three times more prevalent than positive ones.
+Tweets contained in negative and toxic clusters totalled roughly three times the number in positive clusters.
 
-
-Here are some details from the larger identified clusters. They include the following negative themes:
+Here are some details from the largest identified clusters. They include the following negative themes:
 
   - You are an idiot/liar/disgrace/criminal/\#impotus
 
