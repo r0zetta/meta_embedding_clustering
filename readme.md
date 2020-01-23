@@ -299,7 +299,7 @@ Three different sentence vectors were then calculated from each saved tweet:
 
 2.  A doc2vec model was trained on the preprocessed tweet texts. Sentence vectors were then evaluated for each preprocessed tweet text.
 
-3.  XLNET vectors were calculated for each preprocessed tweet text using the model's encode function. Note that this can be a rather time-consuming process.
+3.  BERT sentence vectors were calculated for each preprocessed tweet text using the model's encode function. Note that this can be a rather time-consuming process.
 
 Sentence meta embeddings were then calculated by summing the three sentence vectors calculated for each tweet. The resulting sentence meta embeddings were then saved in preparation for the next step.
 
