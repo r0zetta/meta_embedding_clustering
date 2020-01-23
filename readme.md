@@ -321,7 +321,7 @@ Our clustering methodology involves the following steps:
 
 Here is a diagram of the above process:
 
-![](readme//media/image35.png)
+![](readme//media/image40.png)
 
 It is possible to perform reasonably fast (less than 10 seconds) in-memory cosine similarity matrix calculations on small sets (\<20000) using, for instance, the sklearn.metrics.pairwise cosine\_similarity function. However, larger sets of vectors that don't fit into memory require a calculation loop that can take anywhere between minutes and hours to run. In order to process our large sample sets, we opted to perform processing in batches using the following logic:
 
