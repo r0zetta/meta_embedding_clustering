@@ -94,7 +94,7 @@ Above are clusters designated toxic by virtue of their average sentiment score.
 
 ![](readme//media/image46.png)
 
-Above is a breakdown of replies by verdict for each candidate. @AndrewYang received by far the most positive replies, whilst @AOC and @SenWarren received the most replies deemed toxic.
+Above is a breakdown of replies by verdict for each candidate. Percentage-wise, @AndrewYang received by far the most positive replies, and @AOC and @SenWarren received the largest ratio of toxic replies.
 
 This simple analysis isn’t, unfortunately, all that accurate, due to deficiencies in the sentiment analysis library used.
 
