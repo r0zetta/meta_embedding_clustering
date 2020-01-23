@@ -170,9 +170,7 @@ Final values for this set were as follows:
 
 Positive tweets: 7260 (24.16%) Negative tweets: 16364 (54.47%) Toxic tweets: 6420 (21.37%)
 
-Note how @realDonaldTrump received a great deal more toxic replies than any of the accounts studied in the previous dataset.
-
-Tweets contained in negative and toxic clusters totalled roughly three times the number in positive clusters.
+Note how @realDonaldTrump received a great deal more toxic replies than any of the accounts studied in the previous dataset. Note also that tweets contained in negative and toxic clusters totalled roughly three times that of tweets in positive clusters.
 
 Here are some details from the largest identified clusters. They include the following negative themes:
 
