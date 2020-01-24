@@ -152,6 +152,8 @@ Several clusters contained replies directed at just one account. They contained 
 
 *The cluster shown above contains positive comments to democratic presidential candidates that were posted after a debate*
 
+Example output from this dataset can be found here: https://github.com/r0zetta/meta_embedding_clustering/blob/master/example_output/tweet_graph_analysis_dems.txt
+
 ---
 
 ### Experiment 2: realDonaldTrump
@@ -217,6 +219,8 @@ Here are some of the positive themes identified in these larger clusters:
 *Below is a cluster that identified “stfu” phraseology.*
 
 ![](readme//media/image23.png)
+
+Example output from this dataset (and others studies) can be found here: https://github.com/r0zetta/meta_embedding_clustering/tree/master/example_output
 
 ---
 ### Content regarding the recent Iranian situation
