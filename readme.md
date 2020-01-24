@@ -239,7 +239,7 @@ As mentioned in our methodology section (later in this article), the technique w
 ![](readme//media/image26.png)
 
 
-*And finally, the cluster below contains negative comments, some of which that are rather toxic.*
+*And finally, the cluster below contains a great deal of toxic comments.*
 
 ![](readme//media/image27.png)
 
