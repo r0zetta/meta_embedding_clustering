@@ -162,7 +162,7 @@ A image below is a static graph visualization of the discovered clusters:
 
 ![](readme//media/image42.png)
 
-Using the same methodology as in our first experiment, we separated the clusters into positive, negative, and toxic and summarized them. Positive clusters included both statements of thanks and wishes of Merry Christmas and a Happy New Year. However, “you are a puppet” was incorrectly considered positive by sentiment analysis. A summarization of negative clusters didn’t find any obvious false-positives. It includes themes such as recent impeachment hearings, and comments on the amount of time the president has spent playing golf. Clusters deemed toxic contained a lot of profanity.
+Using the same methodology as in our first experiment, we separated the clusters into positive, negative, and toxic, and then summarized them. Positive clusters included both statements of thanks and wishes of Merry Christmas and a Happy New Year, but also included the incorrectly categorized phrase “you are a puppet”. A summarization of negative clusters didn’t find any obvious false-positives, and included themes such as recent impeachment hearings, and comments on the amount of time the president has spent playing golf. Clusters deemed toxic contained, as expected, a lot of profanity.
 
 ![](readme//media/image47.png)
 
