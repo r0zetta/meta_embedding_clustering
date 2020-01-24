@@ -82,7 +82,7 @@ We ran sentiment analysis on each cluster by taking the average sentiment calcul
 
 ![](readme//media/image43.png)
 
-Note how, in the above, sentiment analysis has incorrectly categorized “you will never be president” as positive.
+Note how, in the above, sentiment analysis has incorrectly categorized a few statements such as “you will never be president” and "you're a moron" as positive.
 
 ![](readme//media/image44.png)
 
