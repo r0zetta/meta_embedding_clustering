@@ -36,7 +36,7 @@ Anyone who runs a prominent social media account is unlikely to be able to find 
 
 Detection of unwanted textual content such as email spam and hate speech is a much easier task than detecting nuances in language indicative of negativity or toxicity. Spam messages typically follow patterns that can be accurately separated with clustering techniques or even regular expressions. Hate speech often contains words that are rarely used outside of their context, and hence can be successfully detected with string matches and other relatively simple techniques. One might assume that sentiment analysis techniques could be used to find toxic content, but they are, unfortunately, still rather inaccurate on real-world data. They often fail to understand the fact that the context of a word can drastically alter its meaning (e.g. "You're a rotten crook" versus "You’ll beat that crook in the next election"). Although accurate sentiment analysis techniques may eventually be of use in this area, software designed to filter toxic comments may require more metadata (such as the subject matter, or topic of the message) in order to perform accurately, or to provide a better explanation as to why certain messages were filtered.
 
-The ability to accurately cluster social media posts by content and topic can greatly facilitate further analysis tasks such as searches for phenomena such as porn spam, reply-spam-based propaganda, and messages being artificially amplified by organized disinformation groups. Furthermore, the results of accurate clustering and topic modeling can be fed into downstream tasks such as:
+In the context of our work, clustering (or topic modelling) is the process of grouping phrases or passages (or, in this case, tweets) into "buckets" based on their topic or subject matter. Clustering of textual content is useful for finding similar phrases, such as those found in regular spam (e.g. porn bots), reply-spam-based propaganda, and content artificially amplified by organized disinformation groups. It is also useful for identifying topics of conversation (what people think about something or someone, what people are talking about), and may also be used to measure sentiment around those topics (how strongly people agree or disagree with something). As this article will illustrate, accurate clustering can also be used to identify other interesting phenomena, such as users who attempt to "hide" spam by slightly altering each of their tweets (something that is cumbersome to detect via regular expressions), groups of accounts spreading hatred towards specific demographics, and groups of accounts spreading disinformation, hoaxes, and fake news. Furthermore, the results of accurate clustering and topic modeling can be fed into downstream tasks such as:
 
   - systems designed to fact-check posts and comments
 
@@ -48,7 +48,7 @@ The ability to accurately cluster social media posts by content and topic can gr
 
   - trust analysis tasks (including those used to determine the quality of accounts on social networks)
 
-  - the creation of disinformation knowledge base and datasets
+  - the creation of disinformation knowledge bases and datasets
 
   - detection of bots or spam publishers
 
