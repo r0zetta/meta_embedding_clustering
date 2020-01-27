@@ -22,11 +22,11 @@ Reply-spam was also used to successfully propagate disinformation during the run
 
 ![](readme//media/image5.png)
 
-*Above: tory activists on Twitter reinforced the original campaign with more copy-paste reply spam content*
+*Above: tory activists on Twitter reinforced the original campaign with more copy-paste reply spam*
 
 ![](readme//media/image6.jpeg)
 
-*Above: this was shortly followed by a second campaign containing a different tweet that was also copy-pasted across social networks*
+*Above: this was shortly followed by a second campaign containing a different tweet that was also copy-pasted across social networks (by the same group of tory activists)*
 
 Many of the accounts that posted this content on Twitter were created specifically for that purpose, and deleted shortly afterwards (https://twitter.com/r0zetta/status/1204519439640801280). The story itself, including the picture, had appeared a week prior to the interview with Johnson in a local newspaper, and at that time, both the story and picture had been verified with personnel at the hospital. However, the fake social media posts were amplified to such a degree that voters, including those living in Leeds, believed that the picture had been faked. At least on Twitter, this disinformation was spread using reply-spam aimed at posts authored by politicians and journalists.
 
