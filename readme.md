@@ -285,7 +285,7 @@ We tested our topic modeling methodology further by running the same toolchain o
 
 ![](readme//media/image48.png)
 
-*Other clusters were discovered in tweets from these same accounts, including a few that contained tweets designed to incite hatred to specific religious groups (see below)*
+*Other clusters were discovered in tweets from the same tory accounts, including a few that contained tweets designed to incite hatred towards specific demographics (see below)*
 
 ![](readme//media/image49.png)
 
