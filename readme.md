@@ -42,7 +42,7 @@ The ability to accurately cluster social media posts by content and topic can gr
 
   - systems designed to detect and track rumors and the spread of disinformation, hoaxes, scams, and fake news
 
-  - systems designed to identify the political stance of content published by one or more accounts
+  - systems designed to identify the political stance of content published by one or more accounts or conversations
 
   - systems designed to quantify public opinion and assess the impact of social media on public opinion
 
@@ -68,7 +68,7 @@ The second set captured direct replies to tweets published by @realDonaldTrump b
 
 ---
 
-Our clustering methodology involved preprocessing of captured data, converting tweets into sentence vectors (using different techniques), combining those vectors into meta embeddings, and then creating node-edge graphs using similarities between calculated meta embeddings. Clusters were then derived by performing community detection on the resulting graphs. A detailed description of our methodology can be found in appendix 1 of this article.
+We developed our own clustering methodology for this research, which involved preprocessing of captured data, converting tweets into sentence vectors (using different techniques), combining those vectors into meta embeddings, and then creating node-edge graphs using similarities between calculated meta embeddings. Clusters were then derived by performing community detection on the resulting graphs. A detailed description of our methodology can be found in appendix 1 of this article.
 
 ### Experiment 1: US Democrats
 
