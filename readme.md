@@ -285,6 +285,10 @@ We tested our topic modeling methodology further by running the same toolchain o
 
 ![](readme//media/image48.png)
 
+*Other clusters were discovered in tweets from these same accounts, including a few that contained tweets designed to incite hatred to specific religious groups (see below)*
+
+![](readme//media/image49.png)
+
 It’s worth noting that a portion of the accounts identified in our clustered data have been suspended since the data was originally collected. This is a good indication that some of the users who post frequent replies to politicians, and participate in harassment are either fake, or are performing activities that break Twitter’s terms of service. Any methodology that allows such accounts to be identified quickly and accurately is of value.
 
 ---
