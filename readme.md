@@ -337,6 +337,8 @@ Three different sentence vectors were then calculated from each saved tweet:
 
 Sentence meta embeddings were then calculated by summing the three sentence vectors calculated for each tweet. The resulting sentence meta embeddings were then saved in preparation for the next step.
 
+Traditional methods for clustering textual data (such as Latent Dirichlet Allocation) require text to be stemmed and/or lemmatized (the process of reducing inflected words to their word stem, base, or root form). This process can be cumbersome and inaccurate. Since embeddings capture relationships between similar words in an unsupervised manner, our approach does not require either stemming or lemmatization.
+
 ### 2\. Sample clustering
 
 Our clustering methodology involves the following steps:
