@@ -235,6 +235,7 @@ Here are some of the positive themes identified in these larger clusters:
 Example output from this dataset (and others studies) can be found here: https://github.com/r0zetta/meta_embedding_clustering/tree/master/example_output
 
 ---
+
 ### Content regarding the recent Iranian situation
 
 As mentioned in our methodology section (later in this article), the technique we’re using does sometimes identify multiple clusters containing similar subject matter. While looking through the clusters identified from replies to @realDonaldTrump, we found four clusters that all contained high percentages of tweets about a recent situation in Iran. Upon inspection we realized that those clusters contained different takes on the same issue.
@@ -260,6 +261,7 @@ As mentioned in our methodology section (later in this article), the technique w
 ![](readme//media/image27.png)
 
 ---
+
 ### Testing our methodology on different data
 
 We tested our topic modeling methodology further by running the same toolchain on a set of tweets collected during the run-up to the UK elections. These were tweets captured on hashtags relevant to those elections (\#GE2019, \#generalelection2019, etc.). Our methodology turns out to be quite well-suited for finding spam. Here are a few examples:
