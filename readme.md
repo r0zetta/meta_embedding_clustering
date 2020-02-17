@@ -86,9 +86,9 @@ We developed our own clustering methodology for this research, which involved pr
 
 ### Experiment 1: US Democrats
 
-Our first experiment involved clustering of a subset of data in set 1 (US democrats). We clustered a batch of 34,003 tweets, resulting in 209 clusters. We created an interactive demo using results of this clustering experiment that can be found here: https://twitter-clustering.web.app/ Note that this interactive demo will not display correctly on mobile browsers, so we encourage you to visit it from a desktop computer. Use the scroll wheel to zoom in and out of the visualization space, left-click and drag to move the nodes around, and click on nodes or communities themselves to see details. Details include names of accounts that were replied to the most in tweets assigned to that cluster, subject-verb-object triplets and overall sentiment extracted from those tweets, and the two most relevant tweets, loaded on the right of the screen, as examples. Different communities related to different topics (e.g. Community 2 contains clusters relevant to recent events in Iran).
+Our first experiment involved clustering of a subset of data in set 1 (US democrats). We clustered a batch of 34,003 tweets, resulting in 209 clusters. We created an interactive demo using results of this clustering experiment (https://twitter-clustering.web.app/). Note that this interactive demo will not display correctly on mobile browsers, so we encourage you to visit it from a desktop computer. Use the scroll wheel to zoom in and out of the visualization space, left-click and drag to move the nodes around, and click on nodes or communities themselves to see details. Details include names of accounts that were replied to the most in tweets assigned to that cluster, subject-verb-object triplets and overall sentiment extracted from those tweets, and the two most relevant tweets, loaded on the right of the screen, as examples. Different communities related to different topics (e.g. Community 2 contains clusters relevant to recent events in Iran).
 
-The image below is a static graph visualization of the discovered clusters. Labels were derived by matching commonly occurring words, and bigram combinations of those words with ngrams and subject-verb-object triplets found in the tweets contained within each cluster. The code for doing this can be found at https://github.com/r0zetta/meta_embedding_clustering under the code directory.
+The image below is a static graph visualization of the discovered clusters. Labels were derived by matching commonly occurring words, and bigram combinations of those words with ngrams and subject-verb-object triplets found in the tweets contained within each cluster. The code for doing this can be found in our github repo (https://github.com/r0zetta/meta_embedding_clustering).
 
 ![](readme//media/image41.png)
 
@@ -104,7 +104,7 @@ As you can see in the above, negative clusters outnumbered positive clusters by 
 
 ![](readme//media/image45.png)
 
-Above are clusters designated toxic by virtue of their average sentiment score.
+Above are clusters designated toxic by virtue of their average sentiment score. Negative posts are defined as those that express disagreement with the author; toxic posts are more strongly worded and tend to express hostility or downright hatred.
 
 ![](readme//media/image46.png)
 
@@ -166,7 +166,7 @@ Several clusters contained replies directed at just one account. They contained 
 
 *The cluster shown above contains positive comments to democratic presidential candidates that were posted after a debate*
 
-Example output from this dataset can be found here: https://github.com/r0zetta/meta_embedding_clustering/blob/master/example_output/tweet_graph_analysis_dems.txt
+Example output from this dataset can be found in our github repo (https://github.com/r0zetta/meta_embedding_clustering/blob/master/example_output/tweet_graph_analysis_dems.txt).
 
 ---
 
@@ -234,7 +234,7 @@ Here are some of the positive themes identified in these larger clusters:
 
 ![](readme//media/image23.png)
 
-Example output from this dataset (and others studies) can be found here: https://github.com/r0zetta/meta_embedding_clustering/tree/master/example_output
+Example output from this dataset (and others studies) can be found in our github repo (https://github.com/r0zetta/meta_embedding_clustering/tree/master/example_output).
 
 ---
 
@@ -323,7 +323,7 @@ If these future goals can be completed successfully, a whole range of potential 
 
 This section contains a detail explanation of the methodology we employed to cluster tweets based on their textual content. Since this section is fairly dry and technical, we opted to leave it until the end of this article. Feel free to skip it unless you’re interested in replicating it for your own means, are involved in similar research, or are both curious and patient
 
-All the code used to implement this can be found at https://github.com/r0zetta/meta_embedding_clustering under the code/ subdirectory.
+All the code used to implement this can be found in our github repo (https://github.com/r0zetta/meta_embedding_clustering).
 
 ### 1\. Data collection, preprocessing, and vectorization
 
