@@ -1,4 +1,4 @@
-# Identification And Categorization Of Toxic Twitter Posts Via Clustering
+# A New, Novel Method For Clustering Tweets
 
 ## Foreword
 
@@ -14,11 +14,7 @@ In this article, we detail our own novel clustering methodology, based on meta e
 
 Anyone who's read comments sections on news sites, looked at replies to social media posts authored by politicians, or read comments on YouTube will appreciate that there's a great deal of toxicity on the internet. Some female and minority high-profile Twitter users are the target of constant, serious harassment, including death threats (https://www.youtube.com/watch?v=A3MopLxgvLc) from both individuals and coordinated groups of users. Social media posts authored by politicians, journalists, and news organizations often receive large numbers of angry or downright toxic replies from people who don't support their statements or opinions.  Some of these replies originate from fake accounts that have been created for the express purpose of trolling - the process of posting controversial comments designed to provoke emotional reactions and start fights. Trolling is a highly efficient way to spread rumors and disinformation, alter public opinion, and disrupt otherwise meaningful conversation, and, as such, is a tool often used by organized groups of political activists, commercial troll farms, and nation state disinformation campaigns.
 
-On Twitter, troll accounts sometimes use a technique called reply-spamming to fish for engagement. This technique involves replying to a large number of high-profile accounts with the same or similar messages. This achieves two goals. The first is organic visibility - many people read replies to posts from politicians, and thus may read the post from the troll account. The second is social engineering – people get angry and reply to the troll’s posts, and occasionally the owner of the high-profile account may be tricked into engaging with the post themselves. Although high-profile accounts are rarely engaged by such tactics, there are examples of it happening. Recently, a parody account named Shaniqua O'Toole, claiming to be a Guardian journalist, managed to gain engagement from a few high-profile verified Twitter accounts by posting replies to their tweets that contained fake screenshots that looked like headlines on The Guardian's website.
-
-![](readme//media/image1.jpg)
-
-*Above: an example of a fake Guardian headline containing parody columnist “Shaniqua O’Toole”*
+On Twitter, troll accounts sometimes use a technique called reply-spamming to fish for engagement. This technique involves replying to a large number of high-profile accounts with the same or similar messages. This achieves two goals. The first is organic visibility - many people read replies to posts from politicians, and thus may read the post from the troll account. The second is social engineering – people get angry and reply to the troll’s posts, and occasionally the owner of the high-profile account may be tricked into engaging with the post themselves. Although high-profile accounts are rarely engaged by such tactics, it's not unheard of.
 
 ### Successful reply-spam-based disinformation in the lead-up to the 2019 UK General Election
 
